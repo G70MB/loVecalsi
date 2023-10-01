@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+</head>
+<body>
+    <span id="one">--</span>
+    <script>
+        for(var i =1 ;i<11; ++i){
+                var y = " "+localStorage.getItem(i)+" " ;
+            document.querySelector("#one").textContent += y+"<br>";
+        }
+        
+        
+    </script>
+</body>
+</html>
